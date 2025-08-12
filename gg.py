@@ -7,7 +7,7 @@ import os
 model = torch.hub.load('ultralytics/yolov5', 'yolov5m', pretrained=True)
 
 # তোমার working RTSP URL
-rtsp_url = "rtsp://admin:abc12345@192.168.0.111:554/cam/realmonitor?channel=8&subtype=0"
+rtsp_url = "rtsp://admin:abc12345@ronicctv.ddns.net:554/cam/realmonitor?channel=8&subtype=0"
 
 # RTSP URL ব্যবহার করে VideoCapture ইনিশিয়ালাইজ করা
 cap = cv2.VideoCapture(rtsp_url)
